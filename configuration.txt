@@ -1,0 +1,21 @@
+public class NewMain {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+       // By Ahmad Amer Al-Fares
+       // 201810916
+       ListInterface v=new VList(3);
+       v.add(10);
+       v.add(20);
+       v.add(85);
+       v.add(1,30);
+       System.out.println("is number 50 in the v list??\n" + v.contains(50));
+       System.out.println("is number 85 int the v List ??\n" + v.contains(85));
+       v.replace(0,50);
+       System.out.println("********************\n The item on the VList is : ");
+       v.display();
+    }
+    
+}
